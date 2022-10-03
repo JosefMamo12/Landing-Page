@@ -1,27 +1,35 @@
-body{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 16px;
+body {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 24px;
+  background-color: white;
 }
-ul{
-    list-style-type: none; 
-    
-}
-a{
-    color: black;
-    text-decoration: none;
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap:20px;
 
 }
-
-.footer{
-    margin-top: 32px;
-    height: 42px;
-    background-color: blueviolet;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
+a {
+  color: white;
+  text-decoration: none;
 }
-.container{
-    display: flex;
-    justify-content: space-between;
+.header{
+  background-color: black;
+  display: flex;
+}
+
+.footer {
+  margin-top: 500px;
+  height: 42px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+}
+.logo {
+  height: 100px;
+  width: 100px;
 }
